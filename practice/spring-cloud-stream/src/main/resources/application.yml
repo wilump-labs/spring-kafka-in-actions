@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-cloud-stream-practice
+  config:
+    import:
+      - spring-cloud-stream.yml
