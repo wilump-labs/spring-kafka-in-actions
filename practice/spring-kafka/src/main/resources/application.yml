@@ -1,6 +1,8 @@
 spring:
   application:
     name: spring-cloud-stream-practice
+  profiles:
+    active: multi-config # auto-config, code, multi-config
   config:
     import:
       - spring-kafka.yml
