@@ -14,6 +14,7 @@ import org.springframework.kafka.core.*
 import org.springframework.kafka.support.serializer.JsonDeserializer
 
 @Profile("multi-config")
+@EnableKafka
 @Configuration
 class KafkaStringConfig {
 
